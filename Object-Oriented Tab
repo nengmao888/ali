@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Object-Oriented Tab</title>
+    <link rel="stylesheet" href="./styles/tab.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <main>
+        <h4>
+            Js Object oriented dynamic TAB addition
+        </h4>
+        <div class="tabsbox" id="tab">
+            <!-- tab tag -->
+            <nav class="firstnav">
+                <ul>
+                    <li class="liactive"><span>test 1</span><span class="iconfont icon-guanbi"></span></li>
+                    <li><span>test 2</span><span class="iconfont icon-guanbi"></span></li>
+                    <li><span>test 3</span><span class="iconfont icon-guanbi"></span></li>
+                </ul>
+                <div class="tabadd">
+                    <span>+</span>
+                </div>
+            </nav>
+
+            <!-- tab section -->
+            <div class="tabscon">
+                <section class="conactive">test page 1</section>
+                <section>test page 2</section>
+                <section>test page 3</section>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./tab1.js"></script>
+</body>
+
+</html>
